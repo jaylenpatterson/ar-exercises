@@ -10,3 +10,6 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+class User < ApplicationRecord
+  validates :name, presence: true
+end
